@@ -306,9 +306,11 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  /* background-image: url("../images/hero-bg.jpg"); */
+  background-image: url(../images/LFC\ bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  /* object-fit: cover; */
   background-position: center;
   padding-block: 100px var(--section-padding);
   min-height: 100vh;
